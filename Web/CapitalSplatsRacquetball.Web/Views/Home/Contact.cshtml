@@ -1,0 +1,94 @@
+﻿@model CapitalSplatsRacquetball.Web.ViewModels.ContactEmailViewModel
+
+@{
+    ViewData["Title"] = "Contact";
+}
+
+@*This is to alert user that email was successful *@
+<div class="alert alert-success" id="SuccessAlert" role="alert" style="display:none;">
+    Thanks for reaching out! You should be notified shortly.
+</div>
+
+
+@*This is to alert user that contact form did not work*@
+<div class="alert alert-danger" id="FailureAlert" role="alert" style="display:none;">
+    There was an error submitting this form. Please try again.
+</div>
+
+<h1 class="text-center">Contact</h1>
+
+@using (Html.BeginForm("Contact", "Home", FormMethod.Post, new { @id = "ContactEmailForm" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label for="FullName">FullName *</label>
+        @Html.TextBoxFor(m => m.FullName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.FullName)
+    </div>
+    <div class="form-group">
+        <label for="Email">Email Address *</label>
+        @Html.TextBoxFor(m => m.EmailAddress, new { @class = "form-control", type = "email" })
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        @Html.ValidationMessageFor(m => m.EmailAddress)
+    </div>
+    <div class="form-group">
+        <label for="CurrentMember">Current Member *</label>
+        <div class="form-check">
+            @Html.RadioButton("CurrentMember", true, Model.CurrentMember, new { @class = "form-check-input" })
+            <label class="form-check-label" for="CurrentMember">
+                Yes
+            </label>
+        </div>
+        <div class="form-check">
+            @Html.RadioButton("CurrentMember", false, !Model.CurrentMember, new { @class = "form-check-input" })
+            <label class="form-check-label" for="CurrentMember">
+                No
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="Comments">Comments</label>
+        <textarea rows="5" id="Comments" name="Comments" class="form-control">@Model.Comments</textarea>
+    </div>
+
+    <button type="button" id="btnSubmit" class="btn btn-primary">Submit</button>
+}
+
+
+
+@section scripts
+    {
+
+    <script>
+        $('#btnSubmit').click(function (e) {
+            e.preventDefault();
+
+            // now trigger the form validation, result is 1 or 0
+            let result = $('form').valid(); 
+
+            // submit the form
+            $('#ContactEmailForm').ajaxSubmit({
+                dataType: "json",
+                success: function (json) {
+                    if (json.success) {
+                        $("#FailureAlert").hide();
+                        $("#SuccessAlert").show();
+                    }
+                    else {
+                        $("#SuccessAlert").hide();
+                        $("#FailureAlert").show();
+                    }
+                }
+            });
+            // return false to prevent normal browser submit and page navigation
+             return false;
+
+        });
+    </script>
+
+
+}
+
+
+

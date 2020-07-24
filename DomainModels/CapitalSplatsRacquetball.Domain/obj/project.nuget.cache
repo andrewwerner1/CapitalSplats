@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "RVOZ54+bF0nO5vsmQ6NA4cOxb7FPMIWnLss6vD8se0xHcABtfYXjfFQ6ufd9ancddSGj+5xNrezTu/qRFsJkfw==",
+  "success": true,
+  "projectFilePath": "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\DomainModels\\CapitalSplatsRacquetball.Domain\\CapitalSplatsRacquetball.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

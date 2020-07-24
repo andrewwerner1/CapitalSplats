@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapitalSplatsRaquetball.Repository", "ServiceLayer\CapitalSplatsRaquetball.ServiceLayer\CapitalSplatsRaquetball.Repository.csproj", "{65289DF5-F537-4143-9F92-A2AFAFCBCD1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapitalSplatsRacquetball.Web", "Web\CapitalSplatsRacquetball.Web\CapitalSplatsRacquetball.Web.csproj", "{BAB31CAA-4B64-45CF-B92A-A5903AF9F858}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapitalSplatsRacquetball.Data", "Data\CapitalSplatsRacquetball.Data\CapitalSplatsRacquetball.Data.csproj", "{81EAF2B2-014A-4C3A-A726-9A6A7625723A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapitalSplatsRacquetball.Domain", "DomainModels\CapitalSplatsRacquetball.Domain\CapitalSplatsRacquetball.Domain.csproj", "{6F427F24-1424-4E87-A842-B750E265854B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapitalSplatsRacquetball.Utility", "Utility\CapitalSplatsRacquetball.Utility\CapitalSplatsRacquetball.Utility.csproj", "{98B3538C-56B9-40EB-B871-4794ACA6AF6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65289DF5-F537-4143-9F92-A2AFAFCBCD1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65289DF5-F537-4143-9F92-A2AFAFCBCD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65289DF5-F537-4143-9F92-A2AFAFCBCD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65289DF5-F537-4143-9F92-A2AFAFCBCD1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAB31CAA-4B64-45CF-B92A-A5903AF9F858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB31CAA-4B64-45CF-B92A-A5903AF9F858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB31CAA-4B64-45CF-B92A-A5903AF9F858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB31CAA-4B64-45CF-B92A-A5903AF9F858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81EAF2B2-014A-4C3A-A726-9A6A7625723A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EAF2B2-014A-4C3A-A726-9A6A7625723A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EAF2B2-014A-4C3A-A726-9A6A7625723A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EAF2B2-014A-4C3A-A726-9A6A7625723A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F427F24-1424-4E87-A842-B750E265854B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F427F24-1424-4E87-A842-B750E265854B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F427F24-1424-4E87-A842-B750E265854B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F427F24-1424-4E87-A842-B750E265854B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98B3538C-56B9-40EB-B871-4794ACA6AF6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B3538C-56B9-40EB-B871-4794ACA6AF6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B3538C-56B9-40EB-B871-4794ACA6AF6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B3538C-56B9-40EB-B871-4794ACA6AF6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBC974C1-4F3D-46D0-9795-CB5FF513D314}
+	EndGlobalSection
+EndGlobal

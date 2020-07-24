@@ -1,0 +1,12 @@
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Data\CapitalSplatsRacquetball.Data\bin\Debug\netstandard2.1\CapitalSplatsRacquetball.Data.deps.json
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Data\CapitalSplatsRacquetball.Data\bin\Debug\netstandard2.1\CapitalSplatsRacquetball.Data.dll
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Data\CapitalSplatsRacquetball.Data\obj\Debug\netstandard2.1\CapitalSplatsRacquetball.Data.AssemblyInfoInputs.cache
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Data\CapitalSplatsRacquetball.Data\obj\Debug\netstandard2.1\CapitalSplatsRacquetball.Data.AssemblyInfo.cs
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Data\CapitalSplatsRacquetball.Data\bin\Debug\netstandard2.1\CapitalSplatsRacquetball.Data.pdb
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Data\CapitalSplatsRacquetball.Data\obj\Debug\netstandard2.1\CapitalSplatsRacquetball.Data.dll
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Data\CapitalSplatsRacquetball.Data\obj\Debug\netstandard2.1\CapitalSplatsRacquetball.Data.pdb
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Data\CapitalSplatsRacquetball.Data\obj\Debug\netstandard2.1\CapitalSplatsRacquetball.Data.csprojAssemblyReference.cache
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Data\CapitalSplatsRacquetball.Data\bin\Debug\netstandard2.1\CapitalSplatsRacquetball.Domain.dll
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Data\CapitalSplatsRacquetball.Data\bin\Debug\netstandard2.1\CapitalSplatsRacquetball.Domain.pdb
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Data\CapitalSplatsRacquetball.Data\obj\Debug\netstandard2.1\CapitalSplatsRacquetball.Data.csproj.CopyComplete
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Data\CapitalSplatsRacquetball.Data\obj\Debug\netstandard2.1\CapitalSplatsRacquetball.Data.csproj.CoreCompileInputs.cache

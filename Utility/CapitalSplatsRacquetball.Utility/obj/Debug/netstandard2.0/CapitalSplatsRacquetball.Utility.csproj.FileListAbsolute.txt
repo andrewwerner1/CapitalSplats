@@ -1,0 +1,12 @@
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Utility\CapitalSplatsRacquetball.Utility\bin\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.deps.json
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Utility\CapitalSplatsRacquetball.Utility\bin\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.dll
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Utility\CapitalSplatsRacquetball.Utility\bin\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.pdb
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Utility\CapitalSplatsRacquetball.Utility\bin\Debug\netstandard2.0\CapitalSplatsRacquetball.Domain.dll
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Utility\CapitalSplatsRacquetball.Utility\bin\Debug\netstandard2.0\CapitalSplatsRacquetball.Domain.pdb
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Utility\CapitalSplatsRacquetball.Utility\obj\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.csprojAssemblyReference.cache
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Utility\CapitalSplatsRacquetball.Utility\obj\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.AssemblyInfoInputs.cache
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Utility\CapitalSplatsRacquetball.Utility\obj\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.AssemblyInfo.cs
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Utility\CapitalSplatsRacquetball.Utility\obj\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.csproj.CoreCompileInputs.cache
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Utility\CapitalSplatsRacquetball.Utility\obj\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.csproj.CopyComplete
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Utility\CapitalSplatsRacquetball.Utility\obj\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.dll
+C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Utility\CapitalSplatsRacquetball.Utility\obj\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.pdb
