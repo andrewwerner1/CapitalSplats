@@ -1,5 +1,6 @@
 ﻿using CapitalSplatsRacquetball.Domain;
 using Microsoft.EntityFrameworkCore;
+using System.Text.RegularExpressions;
 
 namespace CapitalSplatsRacquetball.Data
 {
@@ -12,7 +13,7 @@ namespace CapitalSplatsRacquetball.Data
 
         public DbSet<Player> Players { get; set; }
 
-        public DbSet<ScoreWithGridDetail> ScoreGridRows { get; set; }
+        public DbSet<GameMatch> Matches { get; set; }
 
         public DbSet<RequestEmailRecepient> RequestEmailRecepients { get; set; }
 

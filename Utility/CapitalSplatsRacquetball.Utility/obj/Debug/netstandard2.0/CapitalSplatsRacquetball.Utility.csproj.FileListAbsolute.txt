@@ -10,3 +10,15 @@ C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Utility\Capita
 C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Utility\CapitalSplatsRacquetball.Utility\obj\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.csproj.CopyComplete
 C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Utility\CapitalSplatsRacquetball.Utility\obj\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.dll
 C:\Development\Projects\SplatsRacquetball\CapitalSplatsRaquetball\Utility\CapitalSplatsRacquetball.Utility\obj\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.pdb
+C:\Development\Repos\CapSplats\Utility\CapitalSplatsRacquetball.Utility\bin\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.deps.json
+C:\Development\Repos\CapSplats\Utility\CapitalSplatsRacquetball.Utility\bin\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.dll
+C:\Development\Repos\CapSplats\Utility\CapitalSplatsRacquetball.Utility\bin\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.pdb
+C:\Development\Repos\CapSplats\Utility\CapitalSplatsRacquetball.Utility\bin\Debug\netstandard2.0\CapitalSplatsRacquetball.Domain.dll
+C:\Development\Repos\CapSplats\Utility\CapitalSplatsRacquetball.Utility\bin\Debug\netstandard2.0\CapitalSplatsRacquetball.Domain.pdb
+C:\Development\Repos\CapSplats\Utility\CapitalSplatsRacquetball.Utility\obj\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.csprojAssemblyReference.cache
+C:\Development\Repos\CapSplats\Utility\CapitalSplatsRacquetball.Utility\obj\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.AssemblyInfoInputs.cache
+C:\Development\Repos\CapSplats\Utility\CapitalSplatsRacquetball.Utility\obj\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.AssemblyInfo.cs
+C:\Development\Repos\CapSplats\Utility\CapitalSplatsRacquetball.Utility\obj\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.csproj.CoreCompileInputs.cache
+C:\Development\Repos\CapSplats\Utility\CapitalSplatsRacquetball.Utility\obj\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.csproj.CopyComplete
+C:\Development\Repos\CapSplats\Utility\CapitalSplatsRacquetball.Utility\obj\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.dll
+C:\Development\Repos\CapSplats\Utility\CapitalSplatsRacquetball.Utility\obj\Debug\netstandard2.0\CapitalSplatsRacquetball.Utility.pdb

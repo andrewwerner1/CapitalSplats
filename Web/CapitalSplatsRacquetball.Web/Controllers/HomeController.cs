@@ -33,10 +33,18 @@ namespace CapitalSplatsRacquetball.Web.Controllers
 
         public IActionResult Index()
         {
-            //dbContext.Database.EnsureCreated();
-            //GetPlayers();
-            //AddPlayer();
-            //GetPlayers();
+            try
+            {
+                dbContext.Database.EnsureCreated();
+       //         AddDummyData();
+            }
+            catch(Exception e)
+            {
+                var test = e;
+            }
+
+            
+
             return View();
         }
 
@@ -70,12 +78,58 @@ namespace CapitalSplatsRacquetball.Web.Controllers
             }
         }
 
-        private void AddPlayer()
+        private void AddDummyData()
         {
-            var player = new Player("John", "Burger", Player.SkillLevel.A, "2900 14Th St NW Washington, DC 20011");
-            dbContext.Players.Add(player);
+            var player1 = new Player{
+                FirstName = "James",
+                LastName = "Marther",
+                Address = "2215 Birther Street Washington, DC 2001",
+                Level = Player.SkillLevel.A
+            };
+
+            var player2 = new Player
+            {
+                FirstName = "Helen",
+                LastName = "Magruder",
+                Address = "252 Connecticut Ave. NW Apt. 509 Washington, DC 2001",
+                Level = Player.SkillLevel.A
+            };
+            dbContext.Players.Add(player1);
+            dbContext.Players.Add(player2);
+            dbContext.SaveChanges();
+
+            List<Player> players = dbContext.Players.ToList();
+            var game1 = new Game
+            {
+                Date = new DateTime(),
+                Player1 = players[0],
+                Player2 = players[1],
+                MatchesPlayed = 2,
+                Location = "JCC"
+            };
+
+            dbContext.Games.Add(game1);
+            dbContext.SaveChanges();
+
+            List<Game> games = dbContext.Games.ToList();
+            var match1 = new GameMatch
+            {
+                GameId = games[0].Id,
+                Player1Score = 5,
+                Player2Score = 12
+            };
+            var match2 = new GameMatch
+            {
+                GameId = games[0].Id,
+                Player1Score = 12,
+                Player2Score = 7
+            };
+
+            dbContext.Matches.Add(match1);
+            dbContext.Matches.Add(match2);
             dbContext.SaveChanges();
         }
+
 
         private List<Player> GetPlayers()
         {

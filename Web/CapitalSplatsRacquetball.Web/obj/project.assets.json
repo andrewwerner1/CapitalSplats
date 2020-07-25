@@ -8519,11 +8519,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\Web\\CapitalSplatsRacquetball.Web\\CapitalSplatsRacquetball.Web.csproj",
+      "projectUniqueName": "C:\\Development\\Repos\\CapSplats\\Web\\CapitalSplatsRacquetball.Web\\CapitalSplatsRacquetball.Web.csproj",
       "projectName": "CapitalSplatsRacquetball.Web",
-      "projectPath": "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\Web\\CapitalSplatsRacquetball.Web\\CapitalSplatsRacquetball.Web.csproj",
+      "projectPath": "C:\\Development\\Repos\\CapSplats\\Web\\CapitalSplatsRacquetball.Web\\CapitalSplatsRacquetball.Web.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\Web\\CapitalSplatsRacquetball.Web\\obj\\",
+      "outputPath": "C:\\Development\\Repos\\CapSplats\\Web\\CapitalSplatsRacquetball.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8539,14 +8539,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\Data\\CapitalSplatsRacquetball.Data\\CapitalSplatsRacquetball.Data.csproj": {
-              "projectPath": "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\Data\\CapitalSplatsRacquetball.Data\\CapitalSplatsRacquetball.Data.csproj"
+            "C:\\Development\\Repos\\CapSplats\\Data\\CapitalSplatsRacquetball.Data\\CapitalSplatsRacquetball.Data.csproj": {
+              "projectPath": "C:\\Development\\Repos\\CapSplats\\Data\\CapitalSplatsRacquetball.Data\\CapitalSplatsRacquetball.Data.csproj"
             },
-            "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\DomainModels\\CapitalSplatsRacquetball.Domain\\CapitalSplatsRacquetball.Domain.csproj": {
-              "projectPath": "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\DomainModels\\CapitalSplatsRacquetball.Domain\\CapitalSplatsRacquetball.Domain.csproj"
+            "C:\\Development\\Repos\\CapSplats\\DomainModels\\CapitalSplatsRacquetball.Domain\\CapitalSplatsRacquetball.Domain.csproj": {
+              "projectPath": "C:\\Development\\Repos\\CapSplats\\DomainModels\\CapitalSplatsRacquetball.Domain\\CapitalSplatsRacquetball.Domain.csproj"
             },
-            "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\Utility\\CapitalSplatsRacquetball.Utility\\CapitalSplatsRacquetball.Utility.csproj": {
-              "projectPath": "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\Utility\\CapitalSplatsRacquetball.Utility\\CapitalSplatsRacquetball.Utility.csproj"
+            "C:\\Development\\Repos\\CapSplats\\Utility\\CapitalSplatsRacquetball.Utility\\CapitalSplatsRacquetball.Utility.csproj": {
+              "projectPath": "C:\\Development\\Repos\\CapSplats\\Utility\\CapitalSplatsRacquetball.Utility\\CapitalSplatsRacquetball.Utility.csproj"
             }
           }
         }

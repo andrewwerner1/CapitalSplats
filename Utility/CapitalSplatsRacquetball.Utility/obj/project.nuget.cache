@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jnDhxoWtyTtWF4EtlQJ5M0BsqSWd6XMBxiMGf6GJ193Zw/CT4HJjwK9e0H6dZbvk8qoQD1HsgS6PWaOeE1iuXQ==",
+  "dgSpecHash": "cKves96k1cOv8tBcgRfXmX3sfFzN3jow7zO610iTXpQFj2a1DlXpI1GwKt2BiVPlCmAaOSoYEs4VqvFYg+Ltlw==",
   "success": true,
-  "projectFilePath": "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\Utility\\CapitalSplatsRacquetball.Utility\\CapitalSplatsRacquetball.Utility.csproj",
+  "projectFilePath": "C:\\Development\\Repos\\CapSplats\\Utility\\CapitalSplatsRacquetball.Utility\\CapitalSplatsRacquetball.Utility.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

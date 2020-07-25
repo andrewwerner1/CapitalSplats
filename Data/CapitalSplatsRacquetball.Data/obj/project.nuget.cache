@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6i9RQ2kTOMc7hSfvnzwAoxTNxCmeAp6mYZ6lSGJCnlrkEDzbebLhr1DNO/jI18JmodLkgENUUOvyo1inBB8LaQ==",
+  "dgSpecHash": "VtDmD3JfQXQ/dQY9te7bQszlA+0/dHne0gOI4H9+j1izhzV6BFdilZ6wclb2LqUHb2e3isDq+jMG7qbK/bHvIg==",
   "success": true,
-  "projectFilePath": "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\Data\\CapitalSplatsRacquetball.Data\\CapitalSplatsRacquetball.Data.csproj",
+  "projectFilePath": "C:\\Development\\Repos\\CapSplats\\Data\\CapitalSplatsRacquetball.Data\\CapitalSplatsRacquetball.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

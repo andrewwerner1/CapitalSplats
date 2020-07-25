@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\DomainModels\\CapitalSplatsRacquetball.Domain\\CapitalSplatsRacquetball.Domain.csproj",
+      "projectUniqueName": "C:\\Development\\Repos\\CapSplats\\DomainModels\\CapitalSplatsRacquetball.Domain\\CapitalSplatsRacquetball.Domain.csproj",
       "projectName": "CapitalSplatsRacquetball.Domain",
-      "projectPath": "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\DomainModels\\CapitalSplatsRacquetball.Domain\\CapitalSplatsRacquetball.Domain.csproj",
+      "projectPath": "C:\\Development\\Repos\\CapSplats\\DomainModels\\CapitalSplatsRacquetball.Domain\\CapitalSplatsRacquetball.Domain.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\DomainModels\\CapitalSplatsRacquetball.Domain\\obj\\",
+      "outputPath": "C:\\Development\\Repos\\CapSplats\\DomainModels\\CapitalSplatsRacquetball.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",

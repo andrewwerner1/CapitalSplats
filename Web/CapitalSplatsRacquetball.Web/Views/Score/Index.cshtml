@@ -4,3 +4,52 @@
 }
 
 <h1>Game Scores</h1>
+
+
+<table id="grid-data" class="table table-condensed table-hover table-striped">
+    <thead>
+        <tr>
+            <th data-column-id="Id" data-type="numeric">ID</th>
+            <th data-column-id="PrettyDate">Date</th>
+            <th data-column-id="Location">Location</th>
+            <th data-column-id="Player1Name">Player 1</th>
+            <th data-column-id="Player2Name">Player 2</th>
+            <th data-column-id="Match1Player1Score" data-type="numeric">Match1 Player 1 Score</th>
+            <th data-column-id="Match1Player2Score" data-type="numeric">Match1 Player 2 Score</th>
+            <th data-column-id="Match2Player1Score" data-type="numeric">Match2 Player 1 Score</th>
+            <th data-column-id="Match2Player2Score" data-type="numeric">Match2 Player 2 Score</th>
+            <th data-column-id="commands" data-formatter="commands" data-sortable="false">Commands</th>
+        </tr>
+    </thead>
+</table>
+
+
+
+@section scripts
+    {
+        <script>
+            let grid = $("#grid-data").bootgrid({
+                ajax: true,
+                post: function () {
+                    /* To accumulate custom parameter with the request object */
+                    //return {
+                    //    id: "b0df282a-0d67-40e5-8558-c9e93b7befed"
+                    //};
+                },
+                url: "/Score/LoadRows",
+                formatters: {
+                    "commands": function (column, row) {
+                        return "<button type=\"button\" class=\"btn btn-xs btn-default command-edit\" data-row-id=\"" + row.Id + "\"><span class=\"fa fa-pencil\"></span></button> " +
+                            "<button type=\"button\" class=\"btn btn-xs btn-default command-delete\" data-row-id=\"" + row.Id + "\"><span class=\"fa fa-trash-o\"></span></button>";
+                    }
+                }
+            }).on("loaded.rs.jquery.bootgrid", function () {
+                /* Executes after data is loaded and rendered */
+                grid.find(".command-edit").on("click", function (e) {
+                    alert("You pressed edit on row: " + $(this).data("row-id"));
+                }).end().find(".command-delete").on("click", function (e) {
+                    alert("You pressed delete on row: " + $(this).data("row-id"));
+                });
+            });;
+        </script>
+}

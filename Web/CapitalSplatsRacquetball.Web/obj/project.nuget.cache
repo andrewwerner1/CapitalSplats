@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gVgQsh994us4X8+OxkUtznJdkrIGDPLS6/ZL1XWipnAI2FGY7PsMikTgubvemSlsk4eEed/Ke/2aS0WxAGWJZg==",
+  "dgSpecHash": "IggB+M0Us21MKlClEkWkAQo00Ur49kHeaaAKFesCeMG5UoXEvDYy5SKS6fPz/lNPk2yvQMYaSaY+3gfjEJH+vw==",
   "success": true,
-  "projectFilePath": "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\Web\\CapitalSplatsRacquetball.Web\\CapitalSplatsRacquetball.Web.csproj",
+  "projectFilePath": "C:\\Development\\Repos\\CapSplats\\Web\\CapitalSplatsRacquetball.Web\\CapitalSplatsRacquetball.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\jquery\\1.11.1\\jquery.1.11.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\jquery.bootgrid\\1.3.1\\jquery.bootgrid.1.3.1.nupkg.sha512",

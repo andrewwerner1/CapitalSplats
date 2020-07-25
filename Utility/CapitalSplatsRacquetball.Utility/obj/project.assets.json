@@ -201,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\Utility\\CapitalSplatsRacquetball.Utility\\CapitalSplatsRacquetball.Utility.csproj",
+      "projectUniqueName": "C:\\Development\\Repos\\CapSplats\\Utility\\CapitalSplatsRacquetball.Utility\\CapitalSplatsRacquetball.Utility.csproj",
       "projectName": "CapitalSplatsRacquetball.Utility",
-      "projectPath": "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\Utility\\CapitalSplatsRacquetball.Utility\\CapitalSplatsRacquetball.Utility.csproj",
+      "projectPath": "C:\\Development\\Repos\\CapSplats\\Utility\\CapitalSplatsRacquetball.Utility\\CapitalSplatsRacquetball.Utility.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\Utility\\CapitalSplatsRacquetball.Utility\\obj\\",
+      "outputPath": "C:\\Development\\Repos\\CapSplats\\Utility\\CapitalSplatsRacquetball.Utility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -221,8 +221,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\DomainModels\\CapitalSplatsRacquetball.Domain\\CapitalSplatsRacquetball.Domain.csproj": {
-              "projectPath": "C:\\Development\\Projects\\SplatsRacquetball\\CapitalSplatsRaquetball\\DomainModels\\CapitalSplatsRacquetball.Domain\\CapitalSplatsRacquetball.Domain.csproj"
+            "C:\\Development\\Repos\\CapSplats\\DomainModels\\CapitalSplatsRacquetball.Domain\\CapitalSplatsRacquetball.Domain.csproj": {
+              "projectPath": "C:\\Development\\Repos\\CapSplats\\DomainModels\\CapitalSplatsRacquetball.Domain\\CapitalSplatsRacquetball.Domain.csproj"
             }
           }
         }

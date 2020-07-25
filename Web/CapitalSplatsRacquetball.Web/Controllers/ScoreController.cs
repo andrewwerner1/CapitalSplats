@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Mime;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
 using CapitalSplatsRacquetball.Data;
+using CapitalSplatsRacquetball.Web.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 
 namespace CapitalSplatsRacquetball.Web.Controllers
 {
@@ -25,10 +29,41 @@ namespace CapitalSplatsRacquetball.Web.Controllers
             return View();
         }
 
-        public JsonResult LoadScores()
+        [HttpPost]
+        public JsonResult LoadRows()
         {
-            var scores = dbContext.ScoreGridRows;
-            return Json(scores);
+            var games = dbContext.Games.ToList();
+            var matches = dbContext.Matches.ToList();
+            var players = dbContext.Players.ToList();
+            var items = new List<ScoresTableRowViewModel>();
+            foreach( var game in games)
+            {
+                var player1 = players.Single(p => p.Id == game.Player1.Id);
+                var player2 = players.Single(p => p.Id == game.Player2.Id);
+                var matchesOfGame = matches.Where(m => m.GameId == game.Id).ToList();
+                var row = new ScoresTableRowViewModel
+                {
+                    Id = game.Id,
+                    PrettyDate = game.Date.ToShortDateString(),
+                    Location = game.Location,
+                    Player1Name = string.Format("{0} {1}", player1.FirstName, player1.LastName),
+                    Player2Name = string.Format("{0} {1}", player2.FirstName, player2.LastName),
+                    Match1Player1Score = matches.ElementAt(0).Player1Score,
+                    Match1Player2Score = matches.ElementAt(0).Player2Score,
+                    Match2Player1Score = matches.ElementAt(1).Player1Score,
+                    Match2Player2Score = matches.ElementAt(1).Player2Score
+                };
+                items.Add(row);
+            }
+
+            string content = JsonConvert.SerializeObject(new { 
+                current = 1 ,
+                rowCount = items.Count,
+                rows = items,
+                total = items.Count
+            });
+
+            return Json(content);
         }
     }
 }

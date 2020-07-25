@@ -5,6 +5,8 @@ namespace CapitalSplatsRacquetball.Domain
 {
     public class Game
     {
+
+
         //test hjkhjkhjk
         public int Id { get; set; }
 
@@ -14,7 +16,7 @@ namespace CapitalSplatsRacquetball.Domain
 
         public Player Player2 { get; set; }
 
-        public List<Score> Scores { get; set; }
+        public List<GameMatch> GameMatches { get; set; }
 
         public int MatchesPlayed { get; set; }
 
