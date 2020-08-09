@@ -9,6 +9,7 @@ using CapitalSplatsRacquetball.Web.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
+using System.Text.Json;
 
 namespace CapitalSplatsRacquetball.Web.Controllers
 {
@@ -30,7 +31,7 @@ namespace CapitalSplatsRacquetball.Web.Controllers
         }
 
         [HttpPost]
-        public JsonResult LoadRows()
+        public ContentResult LoadRows()
         {
             var games = dbContext.Games.ToList();
             var matches = dbContext.Matches.ToList();
@@ -43,7 +44,7 @@ namespace CapitalSplatsRacquetball.Web.Controllers
                 var matchesOfGame = matches.Where(m => m.GameId == game.Id).ToList();
                 var row = new ScoresTableRowViewModel
                 {
-                    Id = game.Id,
+                    ID = game.Id,
                     PrettyDate = game.Date.ToShortDateString(),
                     Location = game.Location,
                     Player1Name = string.Format("{0} {1}", player1.FirstName, player1.LastName),
@@ -56,14 +57,14 @@ namespace CapitalSplatsRacquetball.Web.Controllers
                 items.Add(row);
             }
 
+
             string content = JsonConvert.SerializeObject(new { 
-                current = 1 ,
-                rowCount = items.Count,
                 rows = items,
                 total = items.Count
             });
 
-            return Json(content);
+            return new ContentResult() { Content = content, ContentType = "application/json" };
+
         }
     }
 }

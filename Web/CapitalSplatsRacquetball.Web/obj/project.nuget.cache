@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "IggB+M0Us21MKlClEkWkAQo00Ur49kHeaaAKFesCeMG5UoXEvDYy5SKS6fPz/lNPk2yvQMYaSaY+3gfjEJH+vw==",
+  "dgSpecHash": "f/z09vpZXJePvAiYt89JtzrNGOCGgCPo+iYszww/LCpA2a0sq5wP+fhhBP4YuuW7uhvTUxLkAHFWmFMR7zFl2Q==",
   "success": true,
   "projectFilePath": "C:\\Development\\Repos\\CapSplats\\Web\\CapitalSplatsRacquetball.Web\\CapitalSplatsRacquetball.Web.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\andre\\.nuget\\packages\\jquery\\1.11.1\\jquery.1.11.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\jquery\\1.12.4\\jquery.1.12.4.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\jquery.bootgrid\\1.3.1\\jquery.bootgrid.1.3.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\jquery.ui.combined\\1.12.1\\jquery.ui.combined.1.12.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\jquery.validation\\1.8.0.1\\jquery.validation.1.8.0.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.5\\microsoft.aspnetcore.mvc.razor.extensions.3.1.5.nupkg.sha512",

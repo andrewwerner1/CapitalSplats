@@ -138,3 +138,4 @@ C:\Development\Repos\CapSplats\ServiceLayer\CapitalSplatsRaquetball.ServiceLayer
 C:\Development\Repos\CapSplats\ServiceLayer\CapitalSplatsRaquetball.ServiceLayer\obj\Debug\CapitalSplatsRaquetball.Repository.csproj.CopyComplete
 C:\Development\Repos\CapSplats\ServiceLayer\CapitalSplatsRaquetball.ServiceLayer\obj\Debug\CapitalSplatsRaquetball.ServiceLayer.dll
 C:\Development\Repos\CapSplats\ServiceLayer\CapitalSplatsRaquetball.ServiceLayer\obj\Debug\CapitalSplatsRaquetball.ServiceLayer.pdb
+C:\Development\Repos\CapSplats\ServiceLayer\CapitalSplatsRaquetball.ServiceLayer\obj\Debug\CapitalSplatsRaquetball.Repository.csprojAssemblyReference.cache

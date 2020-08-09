@@ -821,9 +821,6 @@ C:\Development\Repos\CapSplats\Web\CapitalSplatsRacquetball.Web\bin\Debug\netcor
 C:\Development\Repos\CapSplats\Web\CapitalSplatsRacquetball.Web\obj\Debug\netcoreapp3.1\CapitalSplatsRacquetball.Web.csprojAssemblyReference.cache
 C:\Development\Repos\CapSplats\Web\CapitalSplatsRacquetball.Web\obj\Debug\netcoreapp3.1\CapitalSplatsRacquetball.Web.AssemblyInfoInputs.cache
 C:\Development\Repos\CapSplats\Web\CapitalSplatsRacquetball.Web\obj\Debug\netcoreapp3.1\CapitalSplatsRacquetball.Web.AssemblyInfo.cs
-C:\Development\Repos\CapSplats\Web\CapitalSplatsRacquetball.Web\obj\Debug\netcoreapp3.1\CapitalSplatsRacquetball.Web.csproj.CoreCompileInputs.cache
-C:\Development\Repos\CapSplats\Web\CapitalSplatsRacquetball.Web\obj\Debug\netcoreapp3.1\CapitalSplatsRacquetball.Web.MvcApplicationPartsAssemblyInfo.cs
-C:\Development\Repos\CapSplats\Web\CapitalSplatsRacquetball.Web\obj\Debug\netcoreapp3.1\CapitalSplatsRacquetball.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Development\Repos\CapSplats\Web\CapitalSplatsRacquetball.Web\obj\Debug\netcoreapp3.1\CapitalSplatsRacquetball.Web.RazorAssemblyInfo.cache
 C:\Development\Repos\CapSplats\Web\CapitalSplatsRacquetball.Web\obj\Debug\netcoreapp3.1\CapitalSplatsRacquetball.Web.RazorAssemblyInfo.cs
 C:\Development\Repos\CapSplats\Web\CapitalSplatsRacquetball.Web\obj\Debug\netcoreapp3.1\CapitalSplatsRacquetball.Web.TagHelpers.input.cache
@@ -848,3 +845,6 @@ C:\Development\Repos\CapSplats\Web\CapitalSplatsRacquetball.Web\obj\Debug\netcor
 C:\Development\Repos\CapSplats\Web\CapitalSplatsRacquetball.Web\obj\Debug\netcoreapp3.1\CapitalSplatsRacquetball.Web.dll
 C:\Development\Repos\CapSplats\Web\CapitalSplatsRacquetball.Web\obj\Debug\netcoreapp3.1\CapitalSplatsRacquetball.Web.pdb
 C:\Development\Repos\CapSplats\Web\CapitalSplatsRacquetball.Web\obj\Debug\netcoreapp3.1\CapitalSplatsRacquetball.Web.genruntimeconfig.cache
+C:\Development\Repos\CapSplats\Web\CapitalSplatsRacquetball.Web\obj\Debug\netcoreapp3.1\CapitalSplatsRacquetball.Web.csproj.CoreCompileInputs.cache
+C:\Development\Repos\CapSplats\Web\CapitalSplatsRacquetball.Web\obj\Debug\netcoreapp3.1\CapitalSplatsRacquetball.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Development\Repos\CapSplats\Web\CapitalSplatsRacquetball.Web\obj\Debug\netcoreapp3.1\CapitalSplatsRacquetball.Web.MvcApplicationPartsAssemblyInfo.cache

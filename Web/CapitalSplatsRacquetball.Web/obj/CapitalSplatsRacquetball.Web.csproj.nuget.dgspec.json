@@ -245,6 +245,10 @@
             "jQuery.Bootgrid": {
               "target": "Package",
               "version": "[1.3.1, )"
+            },
+            "jQuery.UI.Combined": {
+              "target": "Package",
+              "version": "[1.12.1, )"
             }
           },
           "imports": [

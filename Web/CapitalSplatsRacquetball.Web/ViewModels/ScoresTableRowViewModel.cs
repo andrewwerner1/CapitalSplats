@@ -7,7 +7,7 @@ namespace CapitalSplatsRacquetball.Web.ViewModels
 {
     public class ScoresTableRowViewModel
     {
-        public int Id { get; set; }
+        public int ID { get; set; }
         public string PrettyDate { get; set; }
 
         public string Location { get; set; }

@@ -6,50 +6,50 @@
 <h1>Game Scores</h1>
 
 
-<table id="grid-data" class="table table-condensed table-hover table-striped">
+<table id="ScoresTable" class="SortableTable">
     <thead>
         <tr>
-            <th data-column-id="Id" data-type="numeric">ID</th>
-            <th data-column-id="PrettyDate">Date</th>
-            <th data-column-id="Location">Location</th>
-            <th data-column-id="Player1Name">Player 1</th>
-            <th data-column-id="Player2Name">Player 2</th>
-            <th data-column-id="Match1Player1Score" data-type="numeric">Match1 Player 1 Score</th>
-            <th data-column-id="Match1Player2Score" data-type="numeric">Match1 Player 2 Score</th>
-            <th data-column-id="Match2Player1Score" data-type="numeric">Match2 Player 1 Score</th>
-            <th data-column-id="Match2Player2Score" data-type="numeric">Match2 Player 2 Score</th>
-            <th data-column-id="commands" data-formatter="commands" data-sortable="false">Commands</th>
+            <th data-columnname="PrettyDate">Date</th>
+            <th data-columnname="Location">Location</th>
+            <th data-columnname="Player1Name">Player 1</th>
+            <th data-columnname="Player2Name">Player 2</th>
+            <th data-columnname="Match1Player1Score" data-type="numeric">Match1 Player 1 Score</th>
+            <th data-columnname="Match1Player2Score" data-type="numeric">Match1 Player 2 Score</th>
+            <th data-columnname="Match2Player1Score" data-type="numeric">Match2 Player 1 Score</th>
+            <th data-columnname="Match2Player2Score" data-type="numeric">Match2 Player 2 Score</th>
+            <th data-columnname="commands" data-formatter="commands" data-sortable="false">Commands</th>
         </tr>
     </thead>
+    <tbody></tbody>
 </table>
 
 
 
 @section scripts
     {
-        <script>
-            let grid = $("#grid-data").bootgrid({
-                ajax: true,
-                post: function () {
-                    /* To accumulate custom parameter with the request object */
-                    //return {
-                    //    id: "b0df282a-0d67-40e5-8558-c9e93b7befed"
-                    //};
+
+        <script type="text/javascript">
+        // Basic grid
+           let grid =  $("#ScoresTable").jmkAjaxGridView({
+                primaryKeyName: "ID",
+                ajaxLoadBindMethod: "/Score/LoadRows",
+                orderBy: "Title",
+                orderDirection: "ASC",
+                rowLoadBinding: function (e, rowLoadBindingEventArgs) {
+                    let data = rowLoadBindingEventArgs.data;
+                    return {
+                        ID: data.ID,
+                        PrettyDate: data.PrettyDate,
+                        Location: data.Location,
+                        Player1Name: data.Player1Name,
+                        Player2Name: data.Player2Name,
+                        Match1Player1Score: data.Match1Player1Score,
+                        Match1Player2Score: data.Match1Player2Score,
+                        Match2Player1Score: data.Match2Player1Score,
+                        Match2Player2Score: data.Match2Player2Score,
+                    };
                 },
-                url: "/Score/LoadRows",
-                formatters: {
-                    "commands": function (column, row) {
-                        return "<button type=\"button\" class=\"btn btn-xs btn-default command-edit\" data-row-id=\"" + row.Id + "\"><span class=\"fa fa-pencil\"></span></button> " +
-                            "<button type=\"button\" class=\"btn btn-xs btn-default command-delete\" data-row-id=\"" + row.Id + "\"><span class=\"fa fa-trash-o\"></span></button>";
-                    }
-                }
-            }).on("loaded.rs.jquery.bootgrid", function () {
-                /* Executes after data is loaded and rendered */
-                grid.find(".command-edit").on("click", function (e) {
-                    alert("You pressed edit on row: " + $(this).data("row-id"));
-                }).end().find(".command-delete").on("click", function (e) {
-                    alert("You pressed delete on row: " + $(this).data("row-id"));
-                });
-            });;
+            });
+            
         </script>
 }
